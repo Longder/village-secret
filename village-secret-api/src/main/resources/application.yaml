@@ -1,2 +1,14 @@
 server:
   port: 8899
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/village-secret
+    username: postgres
+    password: fuck3148481
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+
